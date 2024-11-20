@@ -1,0 +1,11 @@
+import numpy as np
+import matplotlib.pyplot as plt
+
+# Konstanta
+v0 = 60  # kecepatan awal (m/s)
+a = -2.25  # perlambatan tetap (m/s^2)
+total_time = 20  # total waktu gerak (detik)
+
+# Fungsi untuk menghitung posisi
+def calculate_position(time):
+    return v0 * time + 0.5 * a * time**2
